@@ -2,12 +2,18 @@
     box-sizing: border-box;
 }
 
+
+/* body {
+    background-color: #444;
+} */
+
 .container {
     padding: 60px 90px;
+    border: 1px solid black;
 }
 
 .delivery-info {
-    border: 2px solid rgba(0, 0, 0, .08);
+    /* border: 2px solid rgba(0, 0, 0, 0.08); */
     padding: 30px;
     /* overflow: auto; */
     display: flex;
@@ -39,3 +45,142 @@
     content: "";
     clear: both;
 } */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo_content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    flex-grow: 8;
+}
+
+.logo_content img {
+    width: 50px;
+    border-radius: 40px;
+}
+
+.logo_content h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button_groups {
+    display: flex;
+    justify-content: end;
+    flex-grow: 2;
+    gap: 20px;
+}
+
+.button_groups a {
+    background-color: rgb(62, 63, 63);
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.register_but {
+    order: 2;
+}
+
+.login_but {
+    order: 1;
+}
+
+.search_but {
+    order: 3;
+}
+
+.navbar {
+    margin: 0 5px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-color: rgba(62, 63, 63, 0.674);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: sticky;
+    top: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+}
+
+.box1 a {
+    /* align-self: center; */
+    color: #fff;
+}
+
+.box2 a {
+    /* align-self: center; */
+    color: #fff;
+}
+
+.box3 a {
+    /* align-self: center; */
+    color: #fff;
+}
+
+.box4 a {
+    /* align-self: center; */
+    color: #fff;
+}
+
+.footer_container {
+    padding: 90px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#about,
+#blog,
+#contact {
+    border-top: 2px solid #fff;
+    padding: 20px;
+}
+
+.about_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.about_info p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about_info h2 {
+    font-size: 34px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about {
+    text-align: center;
+}
+
+.about img {
+    margin: 20px 0;
+    height: 300px;
+    /* object-fit: cover; */
+}
